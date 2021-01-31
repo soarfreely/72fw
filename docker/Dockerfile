@@ -1,5 +1,7 @@
 FROM 39.100.108.229/library/nginx16phpfpm73:1.0
 
+MAINTAINER Xiang Zhang "soarfreely.z@gmail.com"
+
 COPY src /var/www/html
 COPY docker/nginx-conf/nginx.conf /etc/nginx
 COPY docker/nginx-conf/site.conf /etc/nginx/sites-enabled/default.conf
