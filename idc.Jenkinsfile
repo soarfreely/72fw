@@ -1,5 +1,5 @@
 #!groovy
-@Library('jenkinslib@gavin') _
+@Library('jenkinslib@share') _
 
 idc {
    // 是否执行composer
