@@ -1,5 +1,5 @@
 #!groovy
-@Library('jenkinslib@cicd') _
+@Library('jenkinslib@7fw') _
 
 cicd {
    // 是否执行composer
