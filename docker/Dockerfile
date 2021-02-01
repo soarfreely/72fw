@@ -13,11 +13,3 @@ COPY docker/fpm-conf/www.conf /usr/local/etc/php-fpm.d/
 RUN ln -sf /usr/share/zoneinfo/Asia/Shanghai /etc/localtime
 RUN echo 'Asia/Shanghai' >/etc/timezone
 
-#RUN rm /bin/sh && \
-#    ln -s /bin/bash /bin/sh && \
-#    cd /data/www && \
-#    composer install --no-dev -vvv && \
-    #composer update && \
-#    chown -R cy-crs:cy-crs /data/www
-    #php artisan migrate
-
