@@ -1,5 +1,5 @@
 #!groovy
-# jenkins配置的共享库名称
+// jenkins配置的共享库名称
 @Library('jenkinslib@share') _
 
 cicd {
