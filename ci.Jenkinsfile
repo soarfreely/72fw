@@ -31,7 +31,7 @@ ci {
    targetIp = '47.94.221.163'
 
    // toEmail
-   toEmail = 'soarfreely.z@gmail.com'
+   toEmail = '346777749@qq.com'
 
    // 工程名称
    projectName = 'Gavin-project'
