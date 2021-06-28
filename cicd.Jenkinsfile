@@ -1,4 +1,5 @@
 #!groovy
+# jenkins配置的共享库名称
 @Library('jenkinslib@share') _
 
 cicd {
@@ -22,10 +23,10 @@ cicd {
    repository = 'git@github.com:soarfreely/72fw.git'
 
    // Harbor api　auth
-   imageRepositoryAuth = 'Basic YWRtaW46YWxpMjI5LUhhcmJvcg=='
+   imageRepositoryAuth = 'Basic YWRtaW46eW91cnNvdWxpc21pbmU='
 
    // 镜像仓库
-   imageRepoUri = '39.100.108.229/library'
+   imageRepoUri = '47.94.221.163:8080/library'
 
    // jenkins2repository 凭据 (业务代码仓库)
    jenkins2repositoryCredentialsId = 'local-jenkins-github'
@@ -34,7 +35,7 @@ cicd {
    jenkins2serverCredentialsId = 'local-php'
 
    // 生产服务器ip
-   targetIp = '39.100.108.229'
+   targetIp = '47.94.221.163'
 
    // toEmail
    toEmail = 'soarfreely.z@gmail.com'
