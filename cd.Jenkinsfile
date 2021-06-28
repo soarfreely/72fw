@@ -22,19 +22,19 @@ cd {
    repositoryPath = 'git@github.com:soarfreely/72fw.git'
 
    // Harbor api　auth
-   imageRepositoryAuth = 'YWRtaW46YWxpMjI5LUhhcmJvcg=='
+   imageRepositoryAuth = 'YWRtaW46eW91cnNvdWxpc21pbmU='
 
    // 镜像仓库
-   imageRepoUri = '39.100.108.229/library'
+   imageRepoUri = '47.94.221.163:8080/library'
 
    // jenkins2repository 凭据 (业务代码仓库)
-   jenkins2repositoryCredentialsId = 'local-jenkins-github'
+   jenkins2repositoryCredentialsId = 'github'
 
    // jenkins2server凭据 (生产服务器)
-   jenkins2serverCredentialsId = 'deepin-2-39'
+   jenkins2serverCredentialsId = 'zx-docker-jenkins-to-wy'
 
    // 生产服务器ip
-   targetIp = '39.100.108.229'
+   targetIp = '47.94.221.163'
 
    // toEmail
    toEmail = '346777749@qq.com'

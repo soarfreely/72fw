@@ -19,16 +19,16 @@ ci {
    repositoryPath = 'git@github.com:soarfreely/72fw.git'
 
    // jenkins2repository 凭据 (业务代码仓库)
-   jenkins2repositoryCredentialsId = 'local-jenkins-github'
+   jenkins2repositoryCredentialsId = 'github'
 
    // jenkins2server凭据 (生产服务器)
-   jenkins2serverCredentialsId = 'deepin-2-39'
+   jenkins2serverCredentialsId = 'zx-docker-jenkins-to-wy'
 
    // 镜像仓库
-   imageRepoUri = '39.100.108.229/library'
+   imageRepoUri = '47.94.221.163:8080/library'
 
    // 生产服务器ip
-   targetIp = '39.100.108.229'
+   targetIp = '47.94.221.163'
 
    // toEmail
    toEmail = 'soarfreely.z@gmail.com'
