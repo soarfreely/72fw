@@ -13,7 +13,7 @@ ci {
    phpSrc = 'src'
 
    // 仓库名称
-   repositoryName = '7fw'
+   repositoryName = '72fw'
 
    // 业务代码仓库地址
    repositoryPath = 'git@github.com:soarfreely/72fw.git'

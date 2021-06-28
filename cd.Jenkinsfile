@@ -13,7 +13,7 @@ cd {
    phpSrc = 'src'
 
    // 仓库名称
-   repositoryName = '7fw'
+   repositoryName = '72fw'
 
    // nginx代理端口
    nginxProxyPort = 10081
