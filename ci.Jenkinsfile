@@ -22,7 +22,7 @@ ci {
    jenkins2repositoryCredentialsId = 'github'
 
    // jenkins2server凭据 (生产服务器)
-   jenkins2serverCredentialsId = 'jenkins2server'
+   jenkins2serverCredentialsId = 'github'
 
    // 镜像仓库
    imageRepoUri = '127.0.0.1:8080/library'
