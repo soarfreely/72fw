@@ -22,13 +22,13 @@ ci {
    jenkins2repositoryCredentialsId = 'github'
 
    // jenkins2server凭据 (生产服务器)
-   jenkins2serverCredentialsId = 'zx-docker-jenkins-to-wy'
+   jenkins2serverCredentialsId = 'jenkins2server'
 
    // 镜像仓库
-   imageRepoUri = '47.94.221.163:8080/library'
+   imageRepoUri = '127.0.0.1:8080/library'
 
    // 生产服务器ip
-   targetIp = '47.94.221.163'
+   targetIp = 'www.lysuu.com'
 
    // toEmail
    toEmail = '346777749@qq.com'
