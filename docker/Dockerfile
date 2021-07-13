@@ -1,4 +1,4 @@
-FROM 39.100.108.229/library/nginx16phpfpm73:1.0
+FROM 127.0.0.1:5000/nginxphp:1.0
 
 MAINTAINER Xiang Zhang "soarfreely.z@gmail.com"
 
