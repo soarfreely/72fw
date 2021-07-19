@@ -25,7 +25,7 @@ ci {
    jenkins2serverCredentialsId = 'github'
 
    // 镜像仓库
-   imageRepoUri = '127.0.0.1:8080/library'
+   imageRepoUri = '127.0.0.1:5000/library'
 
    // 生产服务器ip
    targetIp = 'www.lysuu.com'
