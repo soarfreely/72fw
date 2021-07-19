@@ -25,16 +25,16 @@ cd {
    imageRepositoryAuth = 'YWRtaW46eW91cnNvdWxpc21pbmU='
 
    // 镜像仓库
-   imageRepoUri = '47.94.221.163:8080/library'
+   imageRepoUri = '127.0.0.1:5000/library'
 
    // jenkins2repository 凭据 (业务代码仓库)
    jenkins2repositoryCredentialsId = 'github'
 
    // jenkins2server凭据 (生产服务器)
-   jenkins2serverCredentialsId = 'zx-docker-jenkins-to-wy'
+   jenkins2serverCredentialsId = 'github'
 
    // 生产服务器ip
-   targetIp = '47.94.221.163'
+   targetIp = '127.0.0.1'
 
    // toEmail
    toEmail = '346777749@qq.com'
